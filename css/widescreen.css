@@ -1,0 +1,21 @@
+#our-clients .imgs {
+  display: flex;
+  width: 30%;
+  margin: auto;
+  justify-content: center;
+}
+
+#our-clients .imgs img {
+  display: block;
+  width: 30%;
+  margin-bottom: 20px;
+  margin-right: 70px;
+}
+
+#our-clients .imgs img:last-child {
+  margin-right: 0;
+}
+
+#main-footer .map {
+  flex: 2;
+}

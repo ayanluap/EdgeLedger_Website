@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Welcome to Edgeledger Financial website.">
+  <meta name="keywords" content="financial, profit, income, statergy, earning">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/mobile.css">
+  <link rel="stylesheet" media="screen and (min-width: 1100px)" href="./css/widescreen.css">
+
+  <script src="https://kit.fontawesome.com/424292e556.js" crossorigin="anonymous"></script>
+  <title>EdgeLedger Website</title>
+</head>
+<body>
+
+  <!-- Navbar -->
+
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <div class="logo">
+        <h1>
+          <span class="clr">
+            <i class="fas fa-book-open"></i> Edge</span>Ledger
+        </h1>
+      </div>
+      <div class="list">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#what">What</a></li>
+          <li><a href="#who">Who</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Showcase -->
+
+  <section id="showcase">
+    <div class="showcase-content">
+      <h1 class="l-heading">
+        The <span class="clr">Sky</span>
+        Is The Limit !
+      </h1>
+      <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto fugiat obcaecati inventore sed voluptatum ipsa.</p>
+      <a href="#what" class="btn">Read More</a>
+    </div>
+  </section>
+
+  <!-- Section: What -->
+
+  <section id="what">
+    <div class="container">
+      <h2 class="m-heading">
+        <span class="clr">What</span>
+        We Do?
+      </h2>
+
+      <div class="what-items">
+        <div class="what-info">
+          <i class="fas fa-piggy-bank fa-2x"></i>
+          <h3 class="s-heading">
+            Investment Banking
+          </h3>
+          <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus autem repudiandae, fuga reprehenderit illo eaque!</p>
+        </div>
+
+        <div class="what-info">
+          <i class="fas fa-book-reader fa-2x"></i>
+          <h3 class="s-heading">
+            Portfolio Management
+          </h3>
+          <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus autem repudiandae, fuga reprehenderit illo eaque!</p>
+        </div>
+
+        <div class="what-info">
+          <i class="fas fa-wallet fa-2x"></i>
+          <h3 class="s-heading">
+            Tax & Custodial
+          </h3>
+          <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus autem repudiandae, fuga reprehenderit illo eaque!</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Who -->
+
+  <section id="who">
+    <div class="who-img"></div>
+
+    <div class="who-info bg-dark">
+      <h2 class="m-heading">
+        <span class="clr">Who</span>
+        Are We
+      </h2>
+      <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eaque illum est placeat suscipit laboriosam earum deserunt, quibusdam odit minima!</p>
+      <h3>** Our Team **</h3>
+      <ul class="list2">
+        <li>Ayan Paul</li>
+        <li>Virat Kohli</li>
+        <li>Arijit Singh</li>
+        <li>Hardy Sandhu</li>
+        <li>Milind Gaba</li>
+        <li>Rohit Sharma</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Our Clients -->
+
+  <div id="our-clients">
+    <h2 class="m-heading">
+      <span class="clr">Our</span>
+      Clients
+    </h2>
+    <div class="imgs">
+      <img src="./img/logos/logo1.png" alt="1">
+      <img src="./img/logos/logo2.png" alt="2">
+      <img src="./img/logos/logo3.png" alt="3">
+      <img src="./img/logos/logo4.png" alt="4">
+      <img src="./img/logos/logo5.png" alt="5">
+    </div>
+  </div>
+
+  <!-- Contact -->
+
+  <section id="main-footer">
+    <form action="contact.php" class="contact container" id="contact">
+      <h2 class="m-heading">
+        Contact <span class="clr2">Us</span>
+      </h2>
+
+      <div class="contact-content">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter your Name">
+      </div>
+
+      <div class="contact-content">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your Email">
+      </div>
+
+      <div class="contact-content">
+        <label for="phone">Phone Number</label>
+        <input type="text" name="phone" id="phone" placeholder="Enter your Phone No.">
+      </div>
+
+      <div class="contact-content">
+        <label for="message">Message</label>
+        <textarea name="message" cols="30" rows="5" placeholder="Enter your Message"></textarea>
+      </div>
+      <button type="submit" class="btn-dark">
+        Submit
+      </button>
+    </form>
+
+    <div class="map">
+      <div id="googleMap" style="width:100%;height:100%;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(28.7041,77.1025),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlDH4y3jsiZM1T16ovlj1bUd2IhKPVfZo&callback=myMap"></script>
+    </div>
+  </section>
+
+  <footer id="final-footer">
+    <p>Copyright &copy; 2020, All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
