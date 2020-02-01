@@ -91,6 +91,9 @@ a {
 #navbar {
   background-color: #333;
   color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 #navbar .container {
@@ -102,6 +105,7 @@ a {
 
 #navbar .container .list ul {
   display: flex;
+  font-size: 15px;
   list-style: none;
   text-align: center;
 }
